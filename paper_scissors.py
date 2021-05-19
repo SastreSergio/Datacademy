@@ -15,7 +15,7 @@ def play(choice_player1, choice_player2):
         print('Player 1 wins')
     elif choice_player1 == 'Scissors' and choice_player2 == 'Stone':
         print(f'{choice_player1} against {choice_player2}')
-        print('Player 2 wins')
+        print('The machine wins')
     elif choice_player1 == 'Scissors' and choice_player2 == 'Scissors':
         print(f'{choice_player1} against {choice_player2}')
         print('It is a draw!')
@@ -24,7 +24,7 @@ def play(choice_player1, choice_player2):
         print('Player 1 wins')
     elif choice_player1 == 'Paper' and choice_player2 == 'Scissors':
         print(f'{choice_player1} against {choice_player2}')
-        print('Player 2 wins')
+        print('The machine wins')
     elif choice_player1 == 'Paper' and choice_player2 == 'Paper':
         print(f'{choice_player1} against {choice_player2}')
         print('It is a draw!')    
@@ -33,7 +33,7 @@ def play(choice_player1, choice_player2):
         print('Player 1 wins')
     elif choice_player1 == 'Stone' and choice_player2 == 'Paper':
         print(f'{choice_player1} against {choice_player2}')
-        print('Player 2 wins')
+        print('The machine wins')
     elif choice_player1 == 'Stone' and choice_player2 == 'Stone':
         print(f'{choice_player1} against {choice_player2}')
         print('It is a draw!')
